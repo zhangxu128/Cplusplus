@@ -1,0 +1,3 @@
+﻿  test.c
+d:\vs2017\workspace\c练习11\c练习11\test.c(13): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  c练习11.vcxproj -> D:\vs2017\workspace\c练习11\Debug\c练习11.exe
