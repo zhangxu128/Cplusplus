@@ -1,0 +1,18 @@
+package moshi;
+import java.net.*;
+import java.io.*;
+import java.util.*;
+
+public class Fuwu 
+{
+	public Fuwu()
+	{
+        try {
+			ServerSocket ss=new ServerSocket(9999);
+			
+				Socket s=ss.accept();
+				ObjectInputStream ois=new ObjectInputStream(s.getInputStream());
+				ObjectOutputStream oos=new ObjectOutputStream(s.getOutputStream());						
+		} catch (Exception e) {}
+	}
+}

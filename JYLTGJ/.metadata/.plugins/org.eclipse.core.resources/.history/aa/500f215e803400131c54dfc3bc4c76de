@@ -1,0 +1,39 @@
+package jiemian;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
+
+public class Liaotian extends JFrame
+{
+	JTextArea jta;
+	JTextField jtf;
+	JButton jb;
+	JPanel jp;
+	String ownerId;
+	String friendId;
+	
+	public static void main(String[] args)
+	{
+		Liaotian lt=new Liaotian("1");
+	}
+	public Liaotian(String friend)
+	{
+		jta=new JTextArea();
+		jtf=new JTextField(15);
+		jb=new JButton("发送");
+		//jb.addActionListener(this);
+		jp=new JPanel();
+		jp.add(jtf);
+		jp.add(jb);
+		
+		this.add(jta,"Center");
+		this.add(jp,"South");
+		this.setTitle("你正在和"+friend+"聊天");
+		this.setIconImage((new ImageIcon("image/qq.gif").getImage()));
+		this.setSize(300, 200);
+		this.setLocation(318,186);
+		this.setResizable(false);
+		this.setVisible(true);
+	}
+}

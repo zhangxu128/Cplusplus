@@ -1,0 +1,36 @@
+package jiemian;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
+
+public class Liaotian 
+{
+	JTextArea jta;
+	JTextField jtf;
+	JButton jb;
+	JPanel jp;
+	String ownerId;
+	String friendId;
+	
+	public static void main(String[] args)
+	{
+		Liaotian lt=new Liaotian();
+	}
+	public Liaotian()
+	{
+		jta=new JTextArea();
+		jtf=new JTextField(15);
+		jb=new JButton("·¢ËÍ");
+		//jb.addActionListener(this);
+		jp=new JPanel();
+		jp.add(jtf);
+		jp.add(jb);
+		
+		this.add(jta,"Center");
+		this.add(jp,"South");
+		this.setIconImage((new ImageIcon("image/qq.gif").getImage()));
+		this.setSize(300, 200);
+		this.setVisible(true);
+	}
+}

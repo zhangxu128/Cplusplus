@@ -1,0 +1,30 @@
+package moshi;
+import java.net.*;
+import java.io.*;
+import java.util.*;
+import gonggong.*;
+
+public class Fuwu 
+{
+	public Fuwu()
+	{
+        try {
+			ServerSocket ss=new ServerSocket(9999);
+			
+				Socket s=ss.accept();
+				ObjectInputStream ois=new ObjectInputStream(s.getInputStream());
+				User u=(User)ois.readObject();
+				Message m=new Message();
+				if(u.getPasswd().equals("123123"))
+				{
+					m.setMesType("1");
+				}	
+				else
+				{
+					m.setMesType("2");
+				}
+				ObjectOutputStream oos=new ObjectOutputStream(s.getOutputStream());
+				oos.writeObject(m);
+		} catch (Exception e) {}
+	}
+}
