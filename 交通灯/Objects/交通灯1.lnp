@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\jiaotongdeng.obj" 
+TO ".\Objects\交通灯1" 
+PRINT(".\Listings\交通灯1.m51") RAMSIZE(256) 
