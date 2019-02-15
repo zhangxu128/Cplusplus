@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\zonghe.obj" 
+TO ".\Objects\вш╨о0" 
+PRINT(".\Listings\вш╨о0.m51") RAMSIZE(256) 
