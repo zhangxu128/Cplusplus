@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\right_move.obj" 
+TO ".\Objects\right_move" 
+PRINT(".\Listings\right_move.m51") RAMSIZE(256) 
