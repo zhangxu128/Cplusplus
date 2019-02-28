@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\left_move.obj" 
+TO ".\Objects\×óÒÆ" 
+PRINT(".\Listings\×óÒÆ.m51") RAMSIZE(256) 
