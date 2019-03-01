@@ -1,0 +1,163 @@
+C51 COMPILER V9.05   LED                                                                   10/18/2016 21:15:35 PAGE 1   
+
+
+C51 COMPILER V9.05, COMPILATION OF MODULE LED
+OBJECT MODULE PLACED IN led.OBJ
+COMPILER INVOKED BY: D:\Program Files\KEIL\C51\BIN\C51.EXE led.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          //==================================================================
+   2          //文件名称:     LED显示函数
+   3          //功能说明: 
+   4          //硬件描述:
+   5          //资源说明: 11.0592M晶体
+   6          //创建日期: 2015/11/4
+   7          //软件版本: v 1.1     
+   8          //==================================================================
+   9          
+  10          //======================包含头文件==================================
+  11          
+  12          #include "led.h"
+  13          #include "delay.h"
+  14          
+  15          //=============================变量=================================              
+  16          uchar LedState=0;                               //初始化状态              
+  17          uchar LED_DisBuf=0xfe;                  //初始化亮灯     
+  18          //==================================================================
+  19          //函 数 名: Mn_Led_Player()
+  20          //功能描述: 三种花样流水灯的轮循
+  21          //输入参数: 
+  22          //输出参数:     
+  23          //设 计 者：
+  24          //创建日期：
+  25          //==================================================================
+  26          void Mn_Led_Player(void)
+  27          {  
+  28   1              uint i;                     
+  29   1              switch(LedState)
+  30   1              {
+  31   2                      case 0:                                    
+  32   2                      {       
+  33   3                              LED_port=LED_DisBuf;
+  34   3                              delay(200);
+  35   3                              LED_DisBuf<<=1;
+  36   3                              LED_DisBuf=LED_DisBuf+1;
+  37   3                              if(LED_DisBuf==0x7f)
+  38   3                              {
+  39   4                                      LedState=1;     
+  40   4                              }
+  41   3                          break;
+  42   3                      }
+  43   2                      case 1:                                         
+  44   2                      {
+  45   3                              LED_port=LED_DisBuf;
+  46   3                              delay(200);
+  47   3                              LED_DisBuf>>=1;
+  48   3                              LED_DisBuf-=0x80;
+  49   3                              if(LED_DisBuf==0xfe)
+  50   3                              {
+  51   4                                      LedState=2;
+  52   4                              }
+  53   3                              break;  
+  54   3                      }
+  55   2                      case 2:                                         
+C51 COMPILER V9.05   LED                                                                   10/18/2016 21:15:35 PAGE 2   
+
+  56   2                      {       
+  57   3                              LED_port=LED_DisBuf;
+  58   3                              delay(200);
+  59   3                              LED_DisBuf<<=1;
+  60   3                              if(LED_DisBuf==0)
+  61   3                              {
+  62   4                                      LedState=3;     
+  63   4                              }               
+  64   3                              break;
+  65   3                      }
+  66   2                      case 3:                                           
+  67   2                      {
+  68   3                              LED_port=LED_DisBuf;
+  69   3                              delay(200);
+  70   3                              LED_DisBuf<<=1;
+  71   3                      LED_DisBuf++;
+  72   3                              if(LED_DisBuf==0xff)
+  73   3                              {
+  74   4                                      LedState=4;     
+  75   4                              }
+  76   3                              break;
+  77   3                      }
+  78   2              
+  79   2                      case 4:                                       
+  80   2                      {       
+  81   3                              LED_port=LED_DisBuf;
+  82   3                              delay(200);
+  83   3                              LED_DisBuf>>=1;
+  84   3                              if(LED_DisBuf==0)
+  85   3                              {
+  86   4                                      LedState=5;     
+  87   4                              }
+  88   3                              break;
+  89   3                      }
+  90   2                      case 5:                                     
+  91   2                      {       
+  92   3                              LED_port=LED_DisBuf;
+  93   3                              delay(200);
+  94   3                              LED_DisBuf>>=1;
+  95   3                              LED_DisBuf+=0x80;
+  96   3                              if(LED_DisBuf==0xff)
+  97   3                              {
+  98   4                                      LedState=6;
+  99   4                                      LED_DisBuf=0xaa;        
+ 100   4                              }
+ 101   3                              break;
+ 102   3                      }
+ 103   2                      case 6:                                            
+ 104   2                      {                                                          
+ 105   3                              i++;
+ 106   3                              LED_port=LED_DisBuf;
+ 107   3                              if(LED_DisBuf==0xaa)
+ 108   3                              {
+ 109   4                                      LED_DisBuf=0x55;
+ 110   4                              }
+ 111   3                              else 
+ 112   3                              {
+ 113   4                                      LED_DisBuf=0xaa;
+ 114   4                              }
+ 115   3                              if(i==7)
+ 116   3                              {
+ 117   4                                      i=0;
+C51 COMPILER V9.05   LED                                                                   10/18/2016 21:15:35 PAGE 3   
+
+ 118   4                                      LedState=7;     
+ 119   4                              }break;
+ 120   3                      }
+ 121   2                      case 7:
+ 122   2                      {       
+ 123   3                              LED_port=LED_DisBuf;
+ 124   3                              delay(200);
+ 125   3                              LED_DisBuf=0xfe;
+ 126   3                              LedState=0;
+ 127   3                              break;
+ 128   3                      }
+ 129   2                      default:break;           
+ 130   2              }
+ 131   1      }
+ 132          
+ 133          
+ 134          
+ 135          
+ 136          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    264    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

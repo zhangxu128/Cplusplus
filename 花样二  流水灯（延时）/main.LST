@@ -1,0 +1,54 @@
+C51 COMPILER V9.54   MAIN                                                                  10/24/2018 22:25:22 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: E:\单片机\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          //==================================================================
+   2          //文件名称: 流水灯显示文件
+   3          //功能说明: 实现流水灯的效果
+   4          //硬件描述: P1口
+   5          //资源说明: 11.0592M晶体
+   6          //创建日期: 2015/11/13
+   7          //软件版本: v 1.1     
+   8          //==================================================================
+   9          
+  10          //==========================包含头文件==============================
+  11          #include <reg51.h>
+  12          #include "app.h"
+  13          //=============================宏定义===============================
+  14          //#define uchar  unsigned char
+  15          //#define uint   unsigned int
+  16          
+  17          //==================================================================
+  18          //函 数 名:  main()
+  19          //功能描述: 包括主循环，实现流水灯
+  20          //输入参数: 
+  21          //输出参数: 
+  22          //设 计 者：   
+  23          //创建日期：
+  24          //==================================================================
+  25          void main()
+  26          {
+  27   1        while(1)
+  28   1        { 
+  29   2          Mn_App();
+  30   2        }
+  31   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      5    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
