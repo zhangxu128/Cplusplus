@@ -1,0 +1,3 @@
+﻿  test.cpp
+d:\vs2017\workspace\c练习40\c练习40\test.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+  c练习40.vcxproj -> D:\vs2017\workspace\c练习40\Debug\c练习40.exe
