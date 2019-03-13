@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++设计类实现一个简单的仓库货物管理", "C++设计类实现一个简单的仓库货物管理\C++设计类实现一个简单的仓库货物管理.vcxproj", "{4C7F4E8E-DCB7-4A4B-9474-B103CD2E526A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C7F4E8E-DCB7-4A4B-9474-B103CD2E526A}.Debug|x64.ActiveCfg = Debug|x64
+		{4C7F4E8E-DCB7-4A4B-9474-B103CD2E526A}.Debug|x64.Build.0 = Debug|x64
+		{4C7F4E8E-DCB7-4A4B-9474-B103CD2E526A}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C7F4E8E-DCB7-4A4B-9474-B103CD2E526A}.Debug|x86.Build.0 = Debug|Win32
+		{4C7F4E8E-DCB7-4A4B-9474-B103CD2E526A}.Release|x64.ActiveCfg = Release|x64
+		{4C7F4E8E-DCB7-4A4B-9474-B103CD2E526A}.Release|x64.Build.0 = Release|x64
+		{4C7F4E8E-DCB7-4A4B-9474-B103CD2E526A}.Release|x86.ActiveCfg = Release|Win32
+		{4C7F4E8E-DCB7-4A4B-9474-B103CD2E526A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35FF3588-2A8D-42B3-9014-CEAE92D4D02B}
+	EndGlobalSection
+EndGlobal
