@@ -1,0 +1,3 @@
+﻿  包裹运输.cpp
+d:\vs2017\workspace\包裹运输\包裹运输\包裹运输.cpp(57): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  包裹运输.vcxproj -> D:\vs2017\workspace\包裹运输\Debug\包裹运输.exe
