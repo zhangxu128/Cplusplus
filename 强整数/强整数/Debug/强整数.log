@@ -1,0 +1,5 @@
+﻿  强整数.cpp
+d:\vs2017\workspace\强整数\强整数\强整数.cpp(34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+d:\vs2017\workspace\强整数\强整数\强整数.cpp(37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+d:\vs2017\workspace\强整数\强整数\强整数.cpp(50): warning C4018: “<”: 有符号/无符号不匹配
+  强整数.vcxproj -> D:\vs2017\workspace\强整数\Debug\强整数.exe
