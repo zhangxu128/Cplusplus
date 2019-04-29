@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "在排序数组中查找元素第一次出现和最后一次出现的位置", "在排序数组中查找元素第一次出现和最后一次出现的位置\在排序数组中查找元素第一次出现和最后一次出现的位置.vcxproj", "{3306167A-D5C8-42FF-9E91-C9E7A30E771B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3306167A-D5C8-42FF-9E91-C9E7A30E771B}.Debug|x64.ActiveCfg = Debug|x64
+		{3306167A-D5C8-42FF-9E91-C9E7A30E771B}.Debug|x64.Build.0 = Debug|x64
+		{3306167A-D5C8-42FF-9E91-C9E7A30E771B}.Debug|x86.ActiveCfg = Debug|Win32
+		{3306167A-D5C8-42FF-9E91-C9E7A30E771B}.Debug|x86.Build.0 = Debug|Win32
+		{3306167A-D5C8-42FF-9E91-C9E7A30E771B}.Release|x64.ActiveCfg = Release|x64
+		{3306167A-D5C8-42FF-9E91-C9E7A30E771B}.Release|x64.Build.0 = Release|x64
+		{3306167A-D5C8-42FF-9E91-C9E7A30E771B}.Release|x86.ActiveCfg = Release|Win32
+		{3306167A-D5C8-42FF-9E91-C9E7A30E771B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D841C939-4B73-4BE6-8A9D-3E584B4D10B8}
+	EndGlobalSection
+EndGlobal
