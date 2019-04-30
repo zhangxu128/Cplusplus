@@ -1,0 +1,4 @@
+﻿  交错01串.cpp
+d:\vs2017\workspace\交错01串\交错01串\交错01串.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\交错01串\交错01串\交错01串.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+  交错01串.vcxproj -> D:\vs2017\workspace\交错01串\Debug\交错01串.exe
