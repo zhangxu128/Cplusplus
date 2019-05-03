@@ -1,0 +1,4 @@
+﻿  亲密字符串.cpp
+d:\vs2017\workspace\亲密字符串\亲密字符串\亲密字符串.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\亲密字符串\亲密字符串\亲密字符串.cpp(52): warning C4018: “<”: 有符号/无符号不匹配
+  亲密字符串.vcxproj -> D:\vs2017\workspace\亲密字符串\Debug\亲密字符串.exe
