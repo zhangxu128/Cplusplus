@@ -1,0 +1,4 @@
+﻿  报数.cpp
+d:\vs2017\workspace\报数\报数\报数.cpp(40): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\报数\报数\报数.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+  报数.vcxproj -> D:\vs2017\workspace\报数\Debug\报数.exe
