@@ -1,0 +1,3 @@
+﻿  快乐数.cpp
+d:\vs2017\workspace\快乐数\快乐数\快乐数.cpp(41): warning C4172: 返回局部变量或临时变量的地址: c
+  快乐数.vcxproj -> D:\vs2017\workspace\快乐数\Debug\快乐数.exe
