@@ -1,0 +1,3 @@
+﻿  数字的补数.cpp
+d:\vs2017\workspace\数字的补数\数字的补数\数字的补数.cpp(34): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  数字的补数.vcxproj -> D:\vs2017\workspace\数字的补数\Debug\数字的补数.exe
