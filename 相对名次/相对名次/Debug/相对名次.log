@@ -1,0 +1,5 @@
+﻿  相对名次.cpp
+d:\vs2017\workspace\相对名次\相对名次\相对名次.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\相对名次\相对名次\相对名次.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\相对名次\相对名次\相对名次.cpp(59): warning C4018: “<”: 有符号/无符号不匹配
+  相对名次.vcxproj -> D:\vs2017\workspace\相对名次\Debug\相对名次.exe
