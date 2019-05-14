@@ -1,0 +1,5 @@
+﻿  十进制整数的反码.cpp
+d:\vs2017\workspace\十进制整数的反码\十进制整数的反码\十进制整数的反码.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\十进制整数的反码\十进制整数的反码\十进制整数的反码.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\十进制整数的反码\十进制整数的反码\十进制整数的反码.cpp(44): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  十进制整数的反码.vcxproj -> D:\vs2017\workspace\十进制整数的反码\Debug\十进制整数的反码.exe
