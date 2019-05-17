@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最小路径和", "最小路径和\最小路径和.vcxproj", "{F462280B-1FDD-459D-BDF2-26979D0709A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F462280B-1FDD-459D-BDF2-26979D0709A7}.Debug|x64.ActiveCfg = Debug|x64
+		{F462280B-1FDD-459D-BDF2-26979D0709A7}.Debug|x64.Build.0 = Debug|x64
+		{F462280B-1FDD-459D-BDF2-26979D0709A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{F462280B-1FDD-459D-BDF2-26979D0709A7}.Debug|x86.Build.0 = Debug|Win32
+		{F462280B-1FDD-459D-BDF2-26979D0709A7}.Release|x64.ActiveCfg = Release|x64
+		{F462280B-1FDD-459D-BDF2-26979D0709A7}.Release|x64.Build.0 = Release|x64
+		{F462280B-1FDD-459D-BDF2-26979D0709A7}.Release|x86.ActiveCfg = Release|Win32
+		{F462280B-1FDD-459D-BDF2-26979D0709A7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68EC68AD-9855-44BC-85B8-8B5967966935}
+	EndGlobalSection
+EndGlobal
