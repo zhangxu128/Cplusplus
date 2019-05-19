@@ -1,0 +1,4 @@
+﻿  最大数.cpp
+d:\vs2017\workspace\最大数\最大数\最大数.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\最大数\最大数\最大数.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+  最大数.vcxproj -> D:\vs2017\workspace\最大数\Debug\最大数.exe
