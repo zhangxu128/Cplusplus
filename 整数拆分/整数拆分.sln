@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "整数拆分", "整数拆分\整数拆分.vcxproj", "{28C7EA33-A02B-4217-BC60-61D0DC8DDACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28C7EA33-A02B-4217-BC60-61D0DC8DDACA}.Debug|x64.ActiveCfg = Debug|x64
+		{28C7EA33-A02B-4217-BC60-61D0DC8DDACA}.Debug|x64.Build.0 = Debug|x64
+		{28C7EA33-A02B-4217-BC60-61D0DC8DDACA}.Debug|x86.ActiveCfg = Debug|Win32
+		{28C7EA33-A02B-4217-BC60-61D0DC8DDACA}.Debug|x86.Build.0 = Debug|Win32
+		{28C7EA33-A02B-4217-BC60-61D0DC8DDACA}.Release|x64.ActiveCfg = Release|x64
+		{28C7EA33-A02B-4217-BC60-61D0DC8DDACA}.Release|x64.Build.0 = Release|x64
+		{28C7EA33-A02B-4217-BC60-61D0DC8DDACA}.Release|x86.ActiveCfg = Release|Win32
+		{28C7EA33-A02B-4217-BC60-61D0DC8DDACA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {583B1024-0331-46BB-BCB9-AA4EAAC3E92F}
+	EndGlobalSection
+EndGlobal
