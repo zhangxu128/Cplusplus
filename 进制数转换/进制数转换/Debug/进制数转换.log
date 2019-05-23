@@ -1,0 +1,4 @@
+﻿  进制数转换.cpp
+d:\vs2017\workspace\进制数转换\进制数转换\进制数转换.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\进制数转换\进制数转换\进制数转换.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+  进制数转换.vcxproj -> D:\vs2017\workspace\进制数转换\Debug\进制数转换.exe
