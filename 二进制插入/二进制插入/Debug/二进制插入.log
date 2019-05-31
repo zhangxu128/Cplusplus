@@ -1,0 +1,4 @@
+﻿  二进制插入.cpp
+d:\vs2017\workspace\二进制插入\二进制插入\二进制插入.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\二进制插入\二进制插入\二进制插入.cpp(25): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  二进制插入.vcxproj -> D:\vs2017\workspace\二进制插入\Debug\二进制插入.exe
