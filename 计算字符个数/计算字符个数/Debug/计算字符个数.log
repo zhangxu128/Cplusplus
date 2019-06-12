@@ -1,0 +1,4 @@
+﻿  计算字符个数.cpp
+d:\vs2017\workspace\计算字符个数\计算字符个数\计算字符个数.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\计算字符个数\计算字符个数\计算字符个数.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+  计算字符个数.vcxproj -> D:\vs2017\workspace\计算字符个数\Debug\计算字符个数.exe
