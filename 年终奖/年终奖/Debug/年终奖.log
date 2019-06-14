@@ -1,0 +1,8 @@
+﻿  年终奖.cpp
+d:\vs2017\workspace\年终奖\年终奖\年终奖.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\年终奖\年终奖\年终奖.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\年终奖\年终奖\年终奖.cpp(20): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\年终奖\年终奖\年终奖.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\年终奖\年终奖\年终奖.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+d:\vs2017\workspace\年终奖\年终奖\年终奖.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+  年终奖.vcxproj -> D:\vs2017\workspace\年终奖\Debug\年终奖.exe
