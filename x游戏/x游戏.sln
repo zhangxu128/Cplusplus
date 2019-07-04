@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "x游戏", "x游戏\x游戏.vcxproj", "{5BE41B60-9E6A-4989-AB91-B6A8DD356B72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BE41B60-9E6A-4989-AB91-B6A8DD356B72}.Debug|x64.ActiveCfg = Debug|x64
+		{5BE41B60-9E6A-4989-AB91-B6A8DD356B72}.Debug|x64.Build.0 = Debug|x64
+		{5BE41B60-9E6A-4989-AB91-B6A8DD356B72}.Debug|x86.ActiveCfg = Debug|Win32
+		{5BE41B60-9E6A-4989-AB91-B6A8DD356B72}.Debug|x86.Build.0 = Debug|Win32
+		{5BE41B60-9E6A-4989-AB91-B6A8DD356B72}.Release|x64.ActiveCfg = Release|x64
+		{5BE41B60-9E6A-4989-AB91-B6A8DD356B72}.Release|x64.Build.0 = Release|x64
+		{5BE41B60-9E6A-4989-AB91-B6A8DD356B72}.Release|x86.ActiveCfg = Release|Win32
+		{5BE41B60-9E6A-4989-AB91-B6A8DD356B72}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F77820D4-D734-4E43-8C8A-D1E5787EB002}
+	EndGlobalSection
+EndGlobal
